@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Admin & Admin Login</title>
+    <title>Vet</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
@@ -41,7 +41,7 @@
         </form>
         
         <div class="mt-4 text-center">
-            <p class="text-sm">Don't have an account? <a href="#" class="text-blue-500">Register</a></p>
+            <p class="text-sm">Don't have an account? <a href="{{ route('register')}}" class="text-blue-500">Register</a></p>
         </div>
     </div>
     </body>
